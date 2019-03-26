@@ -1,0 +1,16 @@
+.link  {
+    /*float: left;*/
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    color: white;    
+    transition-duration: 1s;
+    transition-property: width background-color;
+    transition-timing-function: ease-in-out;
+}
+
+.link:hover {
+    width: 250px;
+    background-color: #000;
+
+}
